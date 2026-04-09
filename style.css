@@ -7,9 +7,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px 30px;
-    background-color: #222;
+    background: #222;
     color: white;
 }
 
@@ -17,48 +16,45 @@ nav a {
     color: white;
     margin-left: 15px;
     text-decoration: none;
-    font-weight: bold;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
     text-align: center;
-    padding: 100px 20px;
-    background-color: #f4f4f4;
-}
-
-.hero h2 {
-    font-size: 32px;
+    padding: 100px;
+    background: lightgray;
 }
 
 button {
     padding: 10px 20px;
-    background-color: blue;
+    background: blue;
     color: white;
     border: none;
-    cursor: pointer;
-    margin-top: 10px;
 }
 
-/* Features Section */
-.features {
+/* Sections */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Boxes */
+.skills, .projects {
     display: flex;
-    justify-content: space-around;
-    padding: 50px 20px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .box {
-    background-color: lightblue;
+    background: lightblue;
     padding: 20px;
     border-radius: 5px;
-    width: 150px;
-    text-align: center;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #222;
+    background: #222;
     color: white;
 }
