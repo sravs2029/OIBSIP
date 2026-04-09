@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #222;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px;
+    background: lightgray;
+}
+
+button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+/* Sections */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Boxes */
+.skills, .projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
