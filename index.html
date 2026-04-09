@@ -2,64 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>John Portfolio</title>
+    <title>Temperature Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Header -->
-<header>
-    <h1>John</h1>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+<div class="container">
+    <h1>Temperature Converter</h1>
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-    <h2>Hi, I'm John 👋</h2>
-    <p>Web Development Intern</p>
-    <button>Contact Me</button>
-</section>
+    <input type="number" id="tempInput" placeholder="Enter temperature">
 
-<!-- About -->
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I am a Computer Science student passionate about web development and building user-friendly applications.</p>
-</section>
+    <select id="unit">
+        <option value="c">Celsius</option>
+        <option value="f">Fahrenheit</option>
+    </select>
 
-<!-- Skills -->
-<section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills">
-        <div class="box">HTML</div>
-        <div class="box">CSS</div>
-        <div class="box">JavaScript</div>
-    </div>
-</section>
+    <button onclick="convertTemp()">Convert</button>
 
-<!-- Projects -->
-<section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects">
-        <div class="box">Landing Page (OIBSIP Task 1)</div>
-    </div>
-</section>
+    <h2 id="result">Result: --</h2>
+</div>
 
-<!-- Contact -->
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: john@example.com</p>
-</section>
-
-<!-- Footer -->
-<footer>
-    <p>© 2026 John</p>
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
