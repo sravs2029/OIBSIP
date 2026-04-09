@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero */
+.hero {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+/* Quote Section */
+.quote {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote .text {
+    flex: 1;
+    font-size: 22px;
+}
+
+.quote .image {
+    flex: 1;
+    text-align: center;
+}
+
+.quote img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Bio */
+.bio {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+}
